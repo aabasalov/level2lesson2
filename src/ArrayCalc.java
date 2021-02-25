@@ -25,7 +25,6 @@ public class ArrayCalc {
         for (String[] a : array) {
             summ += SummElement(a, index_1);
             index_1++;
-
         }
         return summ;
     }
